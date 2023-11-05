@@ -1,8 +1,8 @@
 package com.example.airena
 
+import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
-import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 
 class MainActivity : AppCompatActivity() {
@@ -12,7 +12,8 @@ class MainActivity : AppCompatActivity() {
 
         val startButton = findViewById<Button>(R.id.start_button)
         startButton.setOnClickListener {
-            Toast.makeText(this@MainActivity, "Let's go", Toast.LENGTH_SHORT).show()
+            val intent = Intent(this, GameActivity::class.java)
+            startActivity(intent)
         }
     }
 }
