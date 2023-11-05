@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#331E6D">
+
+    <ImageView
+        android:id="@+id/logo_image"
+        android:layout_width="222dp"
+        android:layout_height="250dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/game_logo"
+        android:contentDescription="@string/logo_airena" />
+
+    <Button
+        android:id="@+id/start_button"
+        android:layout_width="wrap_content"
+        android:layout_height="69dp"
+        android:layout_centerInParent="true"
+        android:layout_below="@+id/logo_image"
+        android:layout_marginTop="73dp"
+        android:backgroundTint="#FFCF31"
+        android:gravity="center"
+        android:text="@string/start_game"
+        android:textColor="#331E6D" />
+
+</RelativeLayout>

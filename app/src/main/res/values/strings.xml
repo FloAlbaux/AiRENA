@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">AiRENA</string>
+    <string name="start_game">Démarrer le jeu</string>
+    <string name="logo_airena">logo AiRENA</string>
+</resources>
